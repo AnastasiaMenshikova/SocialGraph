@@ -11,6 +11,6 @@ https://oauth.vk.com/authorize?client_id=IDприложения&scope=friends,of
 После этого редактируем файл **settings.py**, вставляя туда полученные **access_token** и **user_id**.
 
 Далее переходим по ссылке **https://vk.com/editapp?id=IDприложения&section=functions** и создаем хранимую процедуру **getMutual**.
-Копируем содержимое **execute_getMutual.js** в форму и сохраняем.
+Копируем содержимое **execute_getMutual** в форму и сохраняем.
 
 Для получения глубинного списка друзей (друзья-друзей и т.д.) проделываем те же самые действия с **execute_deepFriends.js**, назвав хранимую процедуру **deepFriends**.
